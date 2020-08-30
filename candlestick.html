@@ -1,47 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Stocks chart</title>
   <link rel="stylesheet" type="text/css" href="https://code.highcharts.com/css/stocktools/gui.css">
   <link rel="stylesheet" type="text/css" href="https://code.highcharts.com/css/annotations/popup.css">
-  
-  
+
+
   <script src="https://code.highcharts.com/stock/highstock.js"></script>
   <script src="https://code.highcharts.com/stock/modules/data.js"></script>
-  
+
   <script src="https://code.highcharts.com/stock/indicators/indicators-all.js"></script>
   <script src="https://code.highcharts.com/stock/modules/drag-panes.js"></script>
-  
+
   <script src="https://code.highcharts.com/modules/annotations-advanced.js"></script>
   <script src="https://code.highcharts.com/modules/price-indicator.js"></script>
   <script src="https://code.highcharts.com/modules/full-screen.js"></script>
-  
-  <!-- <script src="https://code.highcharts.com/modules/stock-tools.js"></script> -->
-  
-<!-- CSS only -->
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-  integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 
-<!-- JS, Popper.js, and jQuery -->
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-  integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
-  integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
-  
-  <script type="text/javascript" src="chart.js"></script>
+  <!-- <script src="https://code.highcharts.com/modules/stock-tools.js"></script> -->
+
+  <!-- CSS only -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+  <!-- JS, Popper.js, and jQuery -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+    integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+    crossorigin="anonymous"></script>
+
+  <script type="text/javascript" src="candlestick.js"></script>
   <script type="text/stylesheet" src="chart.css"></script>
 
 </head>
+
 <body>
   <div class="container">
-    <h3 id="h1-label">Area chart</h3>
-    <a class="btn btn-primary" href="candlestick.html" role="button">Candle stick</a>
+    <h3 id="h1-label">Candlestick chart</h3>
+    <a class="btn btn-primary" href="index.html" role="button">Area chart</a>
     <a class="btn btn-primary" href="ohlc.html" role="button">ohlc chart</a>
   </div>
   <div class="container" id="container" class="chart"></div>
 </body>
+
 </html>
-
-

@@ -82,7 +82,7 @@ Highcharts.getJSON('https://demo-live-data.highcharts.com/aapl-ohlcv.json', func
     // candlestick
     // ohlc
     series: [{
-      type: 'area',
+      type: 'ohlc',
       id: 'aapl-ohlc',
       name: 'AAPL Stock Price',
       data: ohlc
