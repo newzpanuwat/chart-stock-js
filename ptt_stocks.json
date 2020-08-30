@@ -1,0 +1,17 @@
+{ "data": 
+  { 
+  "open": 30.75,
+  "high": 34.5,
+  "low": 30.5,
+  "close": 33.75,
+  "volume": 235135391,
+  "adj_high": null,
+  "adj_low": null,
+  "adj_close": 33.75,
+  "adj_open": null,
+  "adj_volume": null,
+  "symbol": "PTT.XBKK",
+  "exchange": "XBKK",
+  "date": "2020-04-02T00:00:00+0000" 
+  } 
+}
