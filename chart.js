@@ -1,11 +1,13 @@
 
-// $.get("http://api.marketstack.com/v1/eod?access_key=d605eebcea19b7f8a03fda27c700d6f4&symbols=PTT.XBKK", function (data) {
-//   console.log(data);
+// $.get("http://api.marketstack.com/v1/eod?access_key=d605eebcea19b7f8a03fda27c700d6f4&symbols=PTT.XBKK", function (response) {
+//   console.log(response.data);
+//   var obj = JSON.parse(response)
 // });
 
 
 Highcharts.getJSON('https://demo-live-data.highcharts.com/aapl-ohlcv.json', function (data) {
   // split the data set into ohlc and volume
+  // console.log(data)
   var ohlc = [],
     volume = [],
     dataLength = data.length,
